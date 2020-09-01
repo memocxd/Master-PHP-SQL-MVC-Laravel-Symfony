@@ -104,32 +104,51 @@ if ($edadOficial >= $edad1 && $edadOficial <= $edad2) {
     echo 'No esta en edad de trabajar';
 }
 
+echo '<br>';
 
+// Ejemplo 6
+$pais = 'mexico';
+if ($pais == 'mexico' || $pais == 'espana' || $pais == 'colombia') {
+    echo 'en este pais se habla español';
+}else {
+    echo 'no se habla español';
+}
 
+//  SWITCH
 
+$dia_2 = 4;
 
+switch ($dia_2) {
+    case '1':
+        echo 'Lunes';
+        break;
+    case '2':
+        echo 'Martes';
+        break;
+    case '3':
+        echo 'Miercoles';
+        break;
+    case '4':
+        echo 'Jueves';
+        break;
+    case '5':
+        echo 'viernes';
+        break;
+    
+    default:
+        echo 'Fin de semana';
+        break;
+}
 
+// GOTO
+goto marca;
+echo '<h3>Instruccion 1</h3>';
+echo '<h3>Instruccion 2</h3>';
+echo '<h3>Instruccion 3</h3>';
+echo '<h3>Instruccion 4</h3>';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+marca:
+echo '<h1>Me he saltado 4 echos</h1>';
 
 
 ?>
