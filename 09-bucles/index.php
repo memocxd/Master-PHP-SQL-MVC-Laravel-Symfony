@@ -36,8 +36,16 @@ while ($contador <= 10) {
     echo "$numero x $contador = ". ($numero*$contador). '<br>';
     $contador++;
 }
+echo '<br>';
 
+// DO WHILE
 
+$edad = 18;
+$contador = 1;
+do {
+    echo "Tienes acceso al local privado $contador<br>";
+    $contador++;
+} while ($edad >= 18 && $contador <= 10);
 
 
 
