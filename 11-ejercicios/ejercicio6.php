@@ -11,8 +11,9 @@ for ($i=1; $i <= 10 ; $i++) {
     for ($a=1; $a <= 10 ; $a++) {
         // Apertura de tabla
         if ($a == 1) {
-            echo "<table> <tbody>";
-            echo "<th>Tabla del $i</th>";
+            echo "<table>";
+            echo "<caption>Tabla del $i</caption>";
+            echo "<tbody>";
         }
         // Contenido de la tabla
         echo '<tr>'. "<td>$i</td> <td>x</td> <td>$a</td> <td>=</td> <td>". ($a*$i). '</td>' .'</tr>';
