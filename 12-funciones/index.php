@@ -79,40 +79,4 @@ function devuelveElNombre($nombre, $apellidos){
 echo devuelveElNombre("Guillermo Kevin", 'Mora Zurita');
 echo '<br>'. getNombre('Carlos');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
