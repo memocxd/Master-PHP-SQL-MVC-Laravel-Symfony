@@ -1,0 +1,4 @@
+Hola soy un archivo de texto
+Soy más texto
+aun más texto
+ <br> Soy un texto ingresado con php <br> Soy un texto ingresado con php
